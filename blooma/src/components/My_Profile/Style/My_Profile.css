@@ -1,0 +1,89 @@
+body{
+    
+}
+.MainContainer{
+    /* background-color: aqua !important; */
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+}
+.main{
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(57,57,255,1) 39%, rgba(0,212,255,1) 100%); */
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    align-items: center;
+    height: 92vh;
+    
+}
+.hr{
+   
+    background-color: black;
+    width: 80%;
+    border: 1px solid rgb(255, 253, 253);
+    border-radius: 3px;
+    box-shadow: 2px 1px rgb(14, 73, 55);
+}
+.submit{
+    align-items: center;
+}
+.container , .container2{
+    text-shadow: 2px 2px #222222;
+    color: white;
+    margin-top: 10px !important;
+}
+.container2{
+    margin-top: 50px !important;
+    margin-left: 15px !important;
+}
+.title{
+    font-size: 1.5rem;
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    margin-left: 20px;
+}
+.detail{
+    font-size: 1.2rem;
+    font-family:'Fira Sans' ;
+    margin-left: 10px;
+    overflow-x: scroll;
+}
+.button{
+    background-color: rgb(55, 22, 175) !important;
+    color: rgb(247, 247, 247) !important;
+}
+.submit{
+    margin-left: -15px !important;
+    background-color: rgb(55, 22, 175) !important;
+    color: rgb(247, 247, 247) !important;
+}
+
+@media only screen and (max-width: 640px){
+    .title {
+        font-size: 1.2rem !important;
+        margin-left: 0px;
+    }
+    .detail{
+        font-size: 1.1rem;
+    }
+    .button{
+        margin-top: 10px !important;
+    }
+    .container , .container2{
+        display: flex;
+        justify-content: center;
+        color: white;
+        margin-top: 20px !important;
+        overflow: hidden;
+    }
+  
+}
+/* .item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+} */

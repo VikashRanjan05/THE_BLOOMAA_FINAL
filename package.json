@@ -1,0 +1,28 @@
+{
+  "name": "bloomabackend",
+  "version": "1.0.0",
+  "description": "Custom API dedicated for THE BLOOMA",
+  "main": "ServerAPI.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon": "node ServerAPI.js"
+  },
+  "author": "PRINCE YADAV",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.6",
+    "node-datetime": "^2.1.2",
+    "nodemon": "^2.0.6",
+    "otp-generator": "^2.0.0",
+    "razorpay": "^2.0.6",
+    "react-redux": "^7.2.2",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-persist": "^6.0.0",
+    "time-stamp": "^2.2.0"
+  }
+}

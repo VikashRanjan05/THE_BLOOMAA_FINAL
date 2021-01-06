@@ -1,0 +1,14 @@
+export const LOGIN = "LOGIN";
+export const RELOAD = "RELOAD";
+export const LOGOUT = 'LOGOUT';
+export const REGISTER = 'REGISTER';
+export const FORGOT_PASS = "FORGOT_PASS";
+export const REGISTER_OTP = "REGISTER_OTP";
+export const UPDATE_ADD = "UPDATE_ADD";
+export const UPDATE_NUMBER = "UPDATE_NUMBER"
+export const UPDATE_NUMBER_OTP = "UPDATE_NUMBER_OTP";
+export const UPDATE_PASS_OTP = "UPDATE_PASS_OTP";
+export const UPDATE_NEWPASS = "UPDATE_NEWPASS";
+export const CHOOSE_PLAN = "CHOOSE_PLAN"
+export const CONFIRMED_PLAN = "CONFIRMED_PLAN"
+export const CLEARLAST = "CLEARLAST"

@@ -1,0 +1,109 @@
+const MONGOSE=require('mongoose');
+const dbSchema=MONGOSE.Schema;
+
+const customerSchema= new dbSchema({
+name:{
+    type:String,
+    required:true
+},
+number:{
+    type:String,
+    
+    required:true,
+    
+},
+password:{
+    type:String,
+    required:true
+},
+address:{
+    type:String,
+    required:false
+},
+appartment_or_building_name:{
+    type:String,
+    required:false
+},
+flat_or_house_number:{
+    type:String,
+    required:false
+},
+landmark:{
+    type:String,
+    required:false
+},
+road_name_or_number:{
+    type:String,
+    required:false
+
+},
+area:{
+    type:String,
+    required:false
+},
+colony:{
+    type:String,
+    required:false
+},
+state:{
+    type:String,
+    required:false
+},
+city:{
+    type:String,
+    required:false
+},
+district:{
+    type:String,
+    required:false
+},
+pincode:{
+    type:String,
+    required:false
+},
+demo:{
+    type:Boolean,
+    default:true,
+    required:false
+},
+isSubscribed:{
+    type:Boolean,
+    default:false,
+    required:false
+},
+subscribedAt:{
+    type:String,
+    required:false
+},
+planType:{
+    type:String,
+    required:false
+},
+planPrice:{
+    type:String,
+    required:false
+},
+planFeature:{
+    type:String,
+    required:false
+},
+isActivated:{
+    type:Boolean,
+    default:false,
+    required:false
+},
+activationDate:{
+    type:String,
+    required:false
+},
+validityDate:{
+    type:String,
+    required:false
+},
+paymentsId:[{
+    type:String,
+    required:false
+}],
+},{timestamps:true})
+
+module.exports=customerDB=MONGOSE.model("consumerdb",customerSchema)

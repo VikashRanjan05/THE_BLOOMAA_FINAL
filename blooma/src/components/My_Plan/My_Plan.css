@@ -1,0 +1,73 @@
+.pricing_container{
+    background: linear-gradient(to top, #0250c5 0%, #d43f8d 100%) !important;
+}
+.hr{
+   
+    background-color: rgb(236, 12, 12);
+    width: 60%;
+    border: 1px solid rgb(238, 18, 18);
+    border-radius: 3px;
+    box-shadow: 2px 1px rgb(14, 73, 55);
+}
+.cardDetail , .cardDetail2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 28vh;
+    
+}
+.cardDetail2{
+    height: 28vh;
+}
+.data , .data2 , .data3 , .data4 , .data5 , .data6 ,.data7 ,.data10{
+    font-family: 'Fira Sans' !important;
+    font-weight: 700 !important;
+    margin-left: 30px !important;
+}
+.data10{
+    font-size: 1.3rem !important;
+    margin-bottom: 30px !important;
+}
+.data{
+    font-size: 1.3rem !important;
+    font-family: 'Fira Sans' !important;
+    font-weight: 800 !important;
+}
+.data2{
+    font-size: 1.4rem !important;
+    /* margin-left: -65px !important; */
+}
+.data3{
+    font-size: 1.3rem !important;
+    /* margin:5px 44px !important; */
+    margin-top: 6px !important;
+}
+.data4{
+    font-size: 1.3rem !important;
+    margin-top: 3px !important;
+}
+.data5 , .data6 { 
+    font-size: 1.3rem !important;
+    margin-right: 20px !important ;
+    
+}
+
+.data6{
+    margin-top: 20px !important;
+    text-align: center;
+}
+.data7{
+    font-size: 1.3rem !important;
+    margin-right: 10px !important ;
+    margin-bottom: 10px !important;
+    text-align: center;
+    margin-top: 10px !important;
+}
+.header{
+    background-color: rgb(206, 14, 14);
+}
+@media only screen and (max-width: 640px){
+    .cardDetail2{
+        height: 50vh ;
+    }
+}

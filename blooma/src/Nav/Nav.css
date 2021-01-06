@@ -1,0 +1,40 @@
+.navbr{
+    background-color: rgb(32, 32, 32);
+    align-items: center;
+    /* font-family: "Roboto", "Helvetica", "Arial", sans-serif !important;
+    font-weight: 400 !important;
+    line-height: 1.43 !important;
+    letter-spacing: 0.01071em !important; */
+    
+}
+.navdown{
+    text-align: center;
+}
+.btn{
+    margin-left: 10px;
+}
+.brand{
+    letter-spacing: 10px;
+    font-family: 'Fira Sans';
+    font-weight: 400;
+    
+ }
+ .navlin{
+   font-size: 0.875rem !important;
+ }
+.navlin:hover{
+    text-decoration: none ;
+   
+}
+@media only screen and (max-width: 990px){
+    .navbar{
+        
+    }
+    .brand{
+        margin: auto!important;
+        letter-spacing: 5px;
+    }
+    .togglebtn{
+        block-size: 35px;
+    }
+}

@@ -1,0 +1,100 @@
+.hrrr{
+    height: 2px;
+    width: 20%;
+    margin-left: -16%;
+    margin-top:6%;
+    background-color: rgb(61, 59, 59);
+}
+.hrrr2{
+    height: 2px;
+    width: 22%;
+    margin-left: -20%;
+    margin-top:6%;
+    background-color: black;
+    border-radius: 20px;
+}
+.Title{
+   margin-left: 45% ;
+   margin-top: -30px;
+   font-size: 2.2rem !important;
+   z-index: 100;
+}
+.Title2{
+    margin-left: 40% ;
+  
+    font-size: 2.2rem !important;
+    z-index: 100;
+ }
+.containt{
+    margin: 0px 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+}
+.containt2{
+    margin: 10px 75px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.1rem;
+}
+.MainContainer6 , .MainContainer7{
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+}
+.MainContainer7{
+    margin-top: -20px !important;
+}
+
+@media only screen and (max-width: 640px){
+    .hrrr{
+        height: 2px;
+        width: 58%;
+        margin-left: -53%;
+        margin-top:18%;
+    }
+    .hrrr2{
+        height: 2px;
+        width: 72%;
+        margin-left: -68%;
+        margin-top:22%;
+        background-color: rgb(36, 35, 35);
+    }
+    .Title{
+       margin-left: 30% ;
+       font-size: 1.1rem;
+    }
+    .Title2{
+        margin-left: 20% ;
+        font-size: 1.1rem;
+     }
+    .containt{
+        margin: 0px 10px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.1rem;
+    }
+    .containt2{
+        margin: 15px 7px;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.1rem;
+    }
+    .MainContainer6{
+        height: 143vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        background: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+    }
+    .MainContainer7{
+        margin-top: 40px !important;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 10px;
+        background: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+    }
+
+}

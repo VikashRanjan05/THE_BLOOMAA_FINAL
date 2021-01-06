@@ -1,0 +1,62 @@
+/* body{
+    background: linear-gradient(to top, #0250c5 0%, #d43f8d 100%);
+} */
+.crd{
+    /* background: linear-gradient(to top, #0250c5 0%, #d43f8d 100%); */
+}
+/* .butn{
+    position: fixed;
+} */
+.buttn{
+    letter-spacing: 5px !important;
+}
+.maincheck{
+    margin-top: 8vh;
+    box-shadow: 2px 2px 8px #000000 !important;
+    border-radius: 10px;
+}
+.Orderheader{
+    font-size: 5rem !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.hrrr8{
+    height: 5;
+    background-color: rgb(0, 0, 0);
+    width: 40%;
+    margin-top: -10px;
+   
+}
+.cardDetails {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-left: 40px;
+    line-height: 30px;
+}
+.prop{
+    font-size: 1.25rem;
+    
+}
+.att{
+    font-size: 1.15rem;
+    margin-left: 10px;
+}
+.attp{
+    
+    font-size: 1.5rem;
+}
+.attN{
+    font-size: 1.2rem !important;
+    letter-spacing: 1.2px;
+}
+.propD{
+    font-size: 1.22rem;
+}
+.attA{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: none;
+    font-weight: 500 !important;
+    font-size: 1.1rem;
+}
+.propT{
+    margin-top: 20px;
+}
