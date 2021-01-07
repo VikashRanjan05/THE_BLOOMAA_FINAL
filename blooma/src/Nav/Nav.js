@@ -9,6 +9,7 @@ import { useHistory } from 'react-router';
 import {Reload_Action} from './../Redux/index'
 import Axios from 'axios';
 import {motion} from 'framer-motion'
+import { withRouter  } from 'react-router-dom';
 
 const Navigation = () => {
     const userData = useSelector(state => state.Login.userData)
@@ -95,4 +96,4 @@ const Navigation = () => {
     )
 }
 
-export default Navigation;
+export default withRouter(Navigation);

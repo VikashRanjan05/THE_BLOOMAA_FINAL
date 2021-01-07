@@ -9,17 +9,15 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
+  withRouter
 } from "react-router-dom";
 import { Provider } from 'react-redux';
 import Otpvery from './Component/Otpvery';
 import Otpverypass from './Component/Otpverypass'
 import MyProfile from './components/My_Profile/My_Profile';
-import AddressUpdate from './components/My_Profile/Address_Update';
 import {store , persistor} from './Redux/Store';
 import {PersistGate} from 'redux-persist/integration/react'
 import MyPlan from './components/My_Plan/My_Plan';
-import ChangePass from './components/Signin/ChangePass';
-import NumberUpdate from './components/My_Profile/Ṇumber_Update';
 import OtpNumber from './Component/OtpNumber';
 import Checkout from './Home/checkout';
 import Number from './Admin/adminLogin/Number';
@@ -48,7 +46,7 @@ function App() {
     <PersistGate persistor={persistor}>
     <div className="App">
       
-      <Router>
+      
         <Navigation/>
         <Switch>
           <Route exact path='/Blooma/'>
@@ -81,18 +79,12 @@ function App() {
           <Router path='/Blooma/my_profile'>
             <MyProfile/>
           </Router>
-          <Route path='/Blooma/Address_Update'>
-            <AddressUpdate/>
-          </Route>
+          
           <Route path='/Blooma/My_Plan'>
             <MyPlan/>
           </Route>
-          <Route exact path='/Blooma/ChangePass'>
-            <ChangePass/>
-          </Route>
-          <Route path='/Blooma/Update_Number'>
-            <NumberUpdate/>
-          </Route>
+          
+          
           <Route path ='/Blooma/otpnumber'>
             <OtpNumber/>
           </Route>
@@ -153,7 +145,7 @@ function App() {
           <PlanDeactivation/>
          </Route>
         </Switch>
-      </Router>
+      
       
     </div>
     </PersistGate>
@@ -161,4 +153,4 @@ function App() {
   );
 }
 
-export default App;
+export default withRouter(App);

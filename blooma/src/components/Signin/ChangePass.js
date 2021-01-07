@@ -56,7 +56,7 @@ const ChangePass = () => {
          if(userError.passchng){
            
            history.push('/Blooma/Login')
-           history.go((history.length - 1))
+           history.go(-(history.length - 1))
            dispatch(Logout_Action());
          }else{
            setError(true)

@@ -6,15 +6,21 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import './Style/My_Profile.css'
 import {  useSelector } from 'react-redux';
-
+import {
+    Switch,
+    Route
+    } from "react-router-dom";
+import AddressUpdate from './Address_Update' ;
+import NumberUpdate from './Ṇumber_Update'
 const MyProfile = () => {
 
     
     const history = useHistory();
     const user = useSelector(state=> state.Login.userData)
-    const handleClick = () =>{
-        
+    const handleClick = (e) =>{
+        e.preventDefault();
         history.push('/Blooma/Address_Update')
+        
     }
 
     const handleNumber = () =>{
@@ -23,7 +29,14 @@ const MyProfile = () => {
 
 
     return (
-        <div>
+       <Switch>
+        <Route  path='/Blooma/Address_Update'>
+            <AddressUpdate/>
+        </Route>
+        <Route path='/Blooma/Update_Number'>
+            <NumberUpdate/>
+          </Route>
+        
         <Grid container component='main' className='main'>
         <CssBaseline/>
             <Grid item xs={11} sm={10} md={10} component={Paper} elevation={6}  className="MainContainer">
@@ -116,7 +129,8 @@ const MyProfile = () => {
             
             </Grid>
         </Grid>
-        </div>
+        </Switch>
+        
     )
 }
 

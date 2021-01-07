@@ -28,7 +28,7 @@ const Contactus = () => {
                 
             </Container>
             <div className="cp">
-            <span className="copy">Copyright  &#169; THE BLOOMA &nbsp;2020</span>
+            <span className="copy">Copyright  &#169; THE BLOOMAA &nbsp;2020</span>
             </div>
 
         </div>

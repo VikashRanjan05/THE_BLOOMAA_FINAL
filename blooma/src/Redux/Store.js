@@ -5,7 +5,7 @@ import { persistStore } from 'redux-persist'
 import RootReducer from './RootReducer'
 // import logger from 'redux-logger'
 
-export const store = createStore(RootReducer,applyMiddleware(thunk ));
+export const store = createStore(RootReducer,applyMiddleware(thunk));
 export const persistor = persistStore(store);
 
 

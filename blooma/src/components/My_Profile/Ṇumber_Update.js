@@ -12,7 +12,7 @@ import Alert from '@material-ui/lab/Alert';
 import Axios  from 'axios';
 import { useSelector , useDispatch } from 'react-redux';
 import {Update_Number} from './../../Redux/index'
-
+import {withRouter} from 'react-router-dom'
 
 const NumberUpdate = () =>{
    
@@ -128,7 +128,7 @@ const NumberUpdate = () =>{
     )
 }
 
-export default NumberUpdate;
+export default withRouter(NumberUpdate);
 
 
 // Css 

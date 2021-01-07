@@ -12,7 +12,12 @@ import { useHistory , Link  } from "react-router-dom";
 import Axios  from 'axios';
 import { useDispatch , useSelector } from 'react-redux';
 import {Forgot_Pass_Otp  } from './../Redux/index'
-
+import {
+  Switch,
+  Route,
+  withRouter
+} from "react-router-dom";
+import ChangePass from './../components/Signin/ChangePass'
 const Otpverypass = () =>{
     const classes = useStyles();
     const history = useHistory();
@@ -50,7 +55,7 @@ const Otpverypass = () =>{
         
         history.push('/Blooma/ChangePass');
       
-        window.location.reload();
+        
 
       }else{
         setError(true)
@@ -71,6 +76,12 @@ const Otpverypass = () =>{
 
   // 
     return(
+      
+      <Switch>
+      <Route exact path='/Blooma/ChangePass'>
+      <ChangePass/>
+      </Route>
+      
         <Grid container component="main" className={classes.root}>
       <CssBaseline />
       <Grid item xs={false} sm={4} md={6} className={classes.image} />
@@ -117,10 +128,12 @@ const Otpverypass = () =>{
         </div>
       </Grid>
     </Grid>
+    </Switch>
+    
     )
 }
 
-export default Otpverypass;
+export default withRouter(Otpverypass);
 
 
 // Css 
