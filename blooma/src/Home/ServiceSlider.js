@@ -46,7 +46,7 @@ const ServiceSlider = () => {
           alt="गेंदा"
         />
         <Carousel.Caption>
-          <h4>Regular delivery from 5am-7am</h4>
+          <h4>Regular delivery from 6am-9am</h4>
           
         </Carousel.Caption>
       </Carousel.Item>

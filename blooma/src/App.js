@@ -99,7 +99,7 @@ function App() {
             <MainAdmin/>
           </Route>
           {/*admin path */}
-          <Route path="/Blooma/prince">
+          <Route path="/Blooma/gsx1300rrsv4yzfr1daytona675r">
             <Number/>
           </Route>
           <Route path="/Blooma/Check_Otp">

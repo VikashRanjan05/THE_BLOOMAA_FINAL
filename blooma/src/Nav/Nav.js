@@ -27,7 +27,7 @@ const Navigation = () => {
 
     const Logout_Admin = () =>{
         dispatch(LogoutAdmin());
-        history.push('/Blooma/number');
+        history.push('/Blooma');
         history.go((history.length - 1))
     }
 
@@ -70,6 +70,13 @@ const Navigation = () => {
                 </Navbar.Brand>
                 <Navbar.Collapse id="responsive-navbar-nav" >
                     <Nav  className="ml-auto navdown" >
+                    {
+                        window.adminlogin  ?
+                        <>
+                        <Nav.Item className="navlin" ><Nav.Link eventKey='10' as={Link} to="/Blooma/Admin_Sir_Blooma">Admin Home</Nav.Link></Nav.Item>
+                        <Button  variant="danger" size="sm" className='btn' onClick={Logout_Admin}>Admin Logout</Button>
+                        </> : 
+                        <>
                     <Nav.Item  className="navlin" ><Nav.Link eventKey='6' as={Link} to="/Blooma/whywe">About Us</Nav.Link></Nav.Item>
                     <Nav.Item className="navlin" ><Nav.Link eventKey='5' as={Link} to="/Blooma/ourservices">Our Services</Nav.Link></Nav.Item>
                     {
@@ -81,14 +88,8 @@ const Navigation = () => {
                     <Nav.Item className="navlin" ><Nav.Link eventKey='3' as={Link} to="/Blooma/Login">Login</Nav.Link></Nav.Item>
                     <Nav.Item className="navlin" ><Nav.Link eventKey='4' as={Link} to="/Blooma/Register">Register</Nav.Link></Nav.Item>
                     </>    
-                    }
-                    {
-                        window.adminlogin  ?
-                        <>
-                        <Nav.Item className="navlin" ><Nav.Link eventKey='10' as={Link} to="/Blooma/Admin_Sir_Blooma">Admin Home</Nav.Link></Nav.Item>
-                        <Button  variant="danger" size="sm" className='btn' onClick={Logout_Admin}>Admin Logout</Button>
-                        </> : null
-                    }
+                    }</>
+                }
                     </Nav>
                 </Navbar.Collapse>
             </Navbar> 

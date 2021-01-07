@@ -18,11 +18,11 @@ const WhyWe = () => {
                         and a support to the backbone of our country(Farmers).<br /><br />
                         From a ground level research we found that after spending fair amount of effort and money
                         consumers are not getting good quality of product and services while on the other side farmers are not getting 
-                        currect amount of their work.The prime aim of Bloomaa is to provide best services at consumers door-step and also helping the farmers to get real value of their work.<br /><br />
+                        currect amount of their work.The prime aim of THE BLOOMAA is to provide best services at consumers door-step and also helping the farmers to get real value of their work.<br /><br />
                         We THE BLOOMAA wants to start your every day in a positive way by providing you a fresh flower box.<br />
                         Our services at THE BLOOMAA is ecofriendly,farmer supportive and consumer oriented.<br />
                         So, choose us wisely and enjoy our services..<br /><br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; !-- Thank You --!
+                        <span className="thank">!-- Thank You --!</span> 
                     </span>
                 </Grid>
             </Grid>    

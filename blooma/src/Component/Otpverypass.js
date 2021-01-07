@@ -76,12 +76,12 @@ const Otpverypass = () =>{
 
   // 
     return(
-      
+      <div>
       <Switch>
-      <Route exact path='/Blooma/ChangePass'>
-      <ChangePass/>
-      </Route>
-      
+        <Route exact path='/Blooma/ChangePass'>
+          <ChangePass/>
+        </Route>
+        </Switch>
         <Grid container component="main" className={classes.root}>
       <CssBaseline />
       <Grid item xs={false} sm={4} md={6} className={classes.image} />
@@ -126,10 +126,10 @@ const Otpverypass = () =>{
           </Grid>
           </form>
         </div>
+        </Grid>
       </Grid>
-    </Grid>
-    </Switch>
     
+    </div>
     )
 }
 

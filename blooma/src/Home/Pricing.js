@@ -43,7 +43,7 @@ export default function Pricing() {
       {
         title: 'Basic',
         price: '251',
-        description: ['4 Types Flowers 3 Types Leaves','Regular Floural Wastage Collection','15 days delivery of flower box','Delievery Timing : 6am-9am'],
+        description: ['4 Types Flowers 3 Types Leaves','Regular Floral Wastage Collection','15 days delivery of flower box','Delievery Timing : 6am-9am'],
         buttonText: 'Enroll Now',
         buttonVariant: 'contained',
         sub : true
@@ -53,7 +53,7 @@ export default function Pricing() {
         subheader: '',
         price: '551',
         description: [
-          '5 Types Flowers 4 Types Leaves','Regular Floural Wastage Collection','35 days delivery of flower box','Delievery Timing : 6am-9am'
+          '5 Types Flowers 4 Types Leaves','Regular Floral Wastage Collection','35 days delivery of flower box','Delievery Timing : 6am-9am'
         ],
         buttonText: 'Enroll Now',
         buttonVariant: 'contained',
@@ -63,7 +63,7 @@ export default function Pricing() {
         title: 'Premium',
         price: '777',
         description: [
-          '1 Mala per week','5 Types Flowers 4 Types Leaves','Regular Floural Wastage Collection','51 days delivery of flower box','Delievery Timing : 6am-9am'
+          '1 Mala per week','5 Types Flowers 4 Types Leaves','Regular Floral Wastage Collection','51 days delivery of flower box','Delievery Timing : 6am-9am'
         ],
         buttonText: 'Enroll Now',
         buttonVariant: 'contained',
@@ -80,7 +80,7 @@ export default function Pricing() {
       {
         title: 'Basic',
         price: '251',
-        description: ['4 Types Flowers 3 Types Leaves','Regular Floural Wastage Collection','15 days delivery of flower box','Delievery Timing : 6am-9am'],
+        description: ['4 Types Flowers 3 Types Leaves','Regular Floral Wastage Collection','15 days delivery of flower box','Delievery Timing : 6am-9am'],
         buttonText: 'Enroll Now',
         buttonVariant: 'contained',
         sub : false
@@ -90,7 +90,7 @@ export default function Pricing() {
         subheader: '',
         price: '551',
         description: [
-          '5 Types Flowers 4 Types Leaves','Regular Floural Wastage Collection','35 days delivery of flower box','Delievery Timing : 6am-9am'
+          '5 Types Flowers 4 Types Leaves','Regular Floral Wastage Collection','35 days delivery of flower box','Delievery Timing : 6am-9am'
         ],
         buttonText: 'Enroll Now',
         buttonVariant: 'contained',
@@ -100,7 +100,7 @@ export default function Pricing() {
         title: 'Premium',
         price: '777',
         description: [
-          '1 Mala per week','5 Types Flowers 4 Types Leaves','Regular Floural Wastage Collection','51 days delivery of flower box','Delievery Timing : 6am-9am'
+          '1 Mala per week','5 Types Flowers 4 Types Leaves','Regular Floral Wastage Collection','51 days delivery of flower box','Delievery Timing : 6am-9am'
         ],
         buttonText: 'Enroll Now',
         buttonVariant: 'contained',
@@ -121,7 +121,7 @@ export default function Pricing() {
       {
         title: 'Basic',
         price: '251',
-        description: ['4 Types Flowers 3 Types Leaves','Regular Floural Wastage Collection','15 days delivery of flower box','Delievery Timing : 6am-9am'],
+        description: ['4 Types Flowers 3 Types Leaves','Regular Floral Wastage Collection','15 days delivery of flower box','Delievery Timing : 6am-9am'],
         buttonText: 'Enroll Now',
         buttonVariant: 'contained',
         sub : false
@@ -131,7 +131,7 @@ export default function Pricing() {
         subheader: '',
         price: '551',
         description: [
-          '5 Types Flowers 4 Types Leaves','Regular Floural Wastage Collection','35 days delivery of flower box','Delievery Timing : 6am-9am', ' '
+          '5 Types Flowers 4 Types Leaves','Regular Floral Wastage Collection','35 days delivery of flower box','Delievery Timing : 6am-9am', ' '
         ],
         buttonText: 'Enroll Now',
         buttonVariant: 'contained',
@@ -141,7 +141,7 @@ export default function Pricing() {
         title: 'Premium',
         price: '777',
         description: [
-          '1 Mala per week 5 Types Flowers 4 Types Leaves','Regular Floural Wastage Collection','51 days delivery of flower box','Delievery Timing : 6am-9am'
+          '1 Mala per week 5 Types Flowers 4 Types Leaves','Regular Floral Wastage Collection','51 days delivery of flower box','Delievery Timing : 6am-9am'
         ],
         buttonText: 'Enroll Now',
         buttonVariant: 'contained',
